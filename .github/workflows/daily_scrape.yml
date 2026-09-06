@@ -1,0 +1,55 @@
+name: Daily Agenda Scrape
+
+on:
+  schedule:
+    - cron: '0 8 * * *'   # every day at 8:00 AM UTC
+  workflow_dispatch:        # also triggerable manually from the Actions tab
+
+permissions:
+  contents: write           # needed to push events_seen.json back to the repo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: python scraper.py
+
+      - name: Commit updated events_seen.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add events_seen.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update events_seen.json [skip ci]"
+          for i in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) — fetching and rebasing before retry..."
+            git fetch origin
+            git rebase origin/master
+            sleep $((RANDOM % 5 + 1))
+          done
+          echo "Failed to push after retries" >&2
+          exit 1

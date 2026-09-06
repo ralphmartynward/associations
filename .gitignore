@@ -1,0 +1,13 @@
+# Claude Code internals
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Windows Explorer folder customization junk
+desktop.ini

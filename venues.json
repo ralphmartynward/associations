@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Artilect Fablab",
+    "url": "https://www.artilect.fr/event",
+    "parser": "artilect"
+  },
+  {
+    "name": "Les Halles de la Transition",
+    "url": "https://www.leshallesdelatransition.com/evenements-toulouse",
+    "parser": "leshallesdelatransition"
+  },
+  {
+    "name": "La Cantine Toulouse",
+    "url": "https://www.lamelee.com/wp-json/wp/v2/event_listing",
+    "parser": "lamelee_events",
+    "config": {
+      "city": "toulouse"
+    }
+  }
+]
