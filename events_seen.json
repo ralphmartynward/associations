@@ -1,7 +1,5 @@
 {
   "Artilect Fablab": [
-    "https://www.artilect.fr/event/musiclab-tous-les-lundis-18h30-20h-478/register",
-    "https://www.artilect.fr/event/lab-solution-525/register",
     "https://www.artilect.fr/event/fab-bd-408/register",
     "https://www.artilect.fr/event/wocsa-cybersecurite-381/register",
     "https://www.artilect.fr/event/atelier-d-initiation-arduino-517/register",
@@ -11,7 +9,9 @@
     "https://www.artilect.fr/event/decouverte-jeu-de-role-379/register",
     "https://www.artilect.fr/event/musiclab-tous-les-lundis-18h30-20h-479/register",
     "https://www.artilect.fr/event/fab-bd-409/register",
-    "https://www.artilect.fr/event/blitz-night-460/register"
+    "https://www.artilect.fr/event/blitz-night-460/register",
+    "https://www.artilect.fr/event/rencontres-membres-le-samedi-au-fablab-538/register",
+    "https://www.artilect.fr/event/atelier-open-street-map-535/register"
   ],
   "Les Halles de la Transition": [
     "https://www.leshallesdelatransition.com/evenements-toulouse/thtre-dimpro",
@@ -63,6 +63,8 @@
     "https://www.leshallesdelatransition.com/evenements-toulouse/-mercredi-asso-neuvime-plante"
   ],
   "La Cantine Toulouse": [
+    "https://lamelee.com/evenement/elles-font-lactu-les-expertes-ont-encore-besoin-dun-annuaire-pour-se-faire-entendre/",
+    "https://lamelee.com/evenement/cybersecurity-business-convention-cbc-8e-edition/",
     "https://lamelee.com/evenement/conference-club-audiovisuel-numerique-de-toulouse-metropole/",
     "https://lamelee.com/evenement/hackathon-ia-en-sante/",
     "https://lamelee.com/evenement/soiree-entrepreneuriat-genius-n7/",
