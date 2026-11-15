@@ -1,8 +1,5 @@
 {
   "Artilect Fablab": [
-    "https://www.artilect.fr/event/rencontres-membres-le-samedi-au-fablab-537/register",
-    "https://www.artilect.fr/event/rencontre-du-biofablab-523/register",
-    "https://www.artilect.fr/event/atelier-d-initiation-a-la-modelisation-et-a-l-impression-3d-avec-freecad-513/register",
     "https://www.artilect.fr/event/decouverte-jeu-de-role-379/register",
     "https://www.artilect.fr/event/musiclab-tous-les-lundis-18h30-20h-479/register",
     "https://www.artilect.fr/event/fab-bd-409/register",
@@ -11,11 +8,12 @@
     "https://www.artilect.fr/event/atelier-open-street-map-535/register",
     "https://www.artilect.fr/event/rencontre-du-biofablab-524/register",
     "https://www.artilect.fr/event/musiclab-tous-les-lundis-18h30-20h-480/register",
-    "https://www.artilect.fr/event/fab-bd-410/register"
+    "https://www.artilect.fr/event/fab-bd-410/register",
+    "https://www.artilect.fr/event/soiree-jeux-372/register",
+    "https://www.artilect.fr/event/marche-de-noel-samedi-28-novembre-450/",
+    "https://www.artilect.fr/event/marche-de-noel-dimanche-29-novembre-449/"
   ],
   "Les Halles de la Transition": [
-    "https://www.leshallesdelatransition.com/evenements-toulouse/jyel9osciqeizmlc78bqrscfu3dzgh",
-    "https://www.leshallesdelatransition.com/evenements-toulouse/zb2ed9jkrotjpkleiyffrzsl5f3ep3",
     "https://www.leshallesdelatransition.com/evenements-toulouse/atelier-apro-peinture-crative",
     "https://www.leshallesdelatransition.com/evenements-toulouse/transicao-forro",
     "https://www.leshallesdelatransition.com/evenements-toulouse/formation-fresque-du-climat",
@@ -30,6 +28,8 @@
     "https://www.leshallesdelatransition.com/evenements-toulouse/thtre-dimpro-1",
     "https://www.leshallesdelatransition.com/evenements-toulouse/brunch-musical-1",
     "https://www.leshallesdelatransition.com/evenements-toulouse/yytjpps9marhwrp2672b9nz6rs4w4j",
+    "https://www.leshallesdelatransition.com/evenements-toulouse/zb2ed9jkrotjpkleiyffrzsl5f3ep3",
+    "https://www.leshallesdelatransition.com/evenements-toulouse/jyel9osciqeizmlc78bqrscfu3dzgh",
     "https://www.leshallesdelatransition.com/evenements-toulouse/thtre-dimpro",
     "https://www.leshallesdelatransition.com/evenements-toulouse/191fbnx39xskdzfbg3ni7dp4bai7dh",
     "https://www.leshallesdelatransition.com/evenements-toulouse/-soire-halloween-collectif-maison-xi",
@@ -57,9 +57,7 @@
     "https://www.leshallesdelatransition.com/evenements-toulouse/brunch-vgtalien-",
     "https://www.leshallesdelatransition.com/evenements-toulouse/-veggie-day-une-journe-pour-mettre-le-vgtal-toutes-les-sauces",
     "https://www.leshallesdelatransition.com/evenements-toulouse/-manger-demain-sant-agriculture-environnement-comment-faire-les-bons-choix-",
-    "https://www.leshallesdelatransition.com/evenements-toulouse/le-festival-du-mieux-manger-vgtal",
-    "https://www.leshallesdelatransition.com/evenements-toulouse/-atelier-linogravure-creuser-encrer-imprimer",
-    "https://www.leshallesdelatransition.com/evenements-toulouse/-fresque-de-leau-lor-bleu-nest-pas-inpuisable"
+    "https://www.leshallesdelatransition.com/evenements-toulouse/le-festival-du-mieux-manger-vgtal"
   ],
   "La Cantine Toulouse": [
     "https://lamelee.com/evenement/meetup-toulouse-game-dev/",
